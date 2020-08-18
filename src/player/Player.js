@@ -3,6 +3,32 @@ const util = require('../util');
 const constants = require('../constants');
 const Item = require('../item/Item');
 
+// Xp Level Requirements For Zombie And Spider Slayer
+const slayerXp = {
+  1: 5,
+  2: 15,
+  3: 200,
+  4: 1000,
+  5: 5000,
+  6: 20000,
+  7: 100000,
+  8: 400000,
+  9: 1000000,
+};
+
+//Xp Level Requirements For Wolf Slayer
+const wolfXp = {
+  1: 10,
+  2: 25,
+  3: 250,
+  4: 1500,
+  5: 5000,
+  6: 20000,
+  7: 100000,
+  8: 400000,
+  9: 1000000,
+};
+
 const baseStats = {
   damage: 0,
   health: 100,
